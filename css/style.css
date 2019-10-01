@@ -19,9 +19,14 @@ select{
 }
 
 img {
+    position: relative;
     display: block;
     margin: 0 auto;
-  }
+}
+
+td{
+    padding: 30px;
+}
 
 /* parte superior*/
 
@@ -117,7 +122,7 @@ img {
 #div_central{
     background-color: #EBEDF0;
     width: 100%;    
-    height: 1000px;
+    height: 750px;
 }
 
 #div_cen_izq{
@@ -153,20 +158,41 @@ img {
 
     width: 100%;
     align-content: center;
-    display: inline-block;
 }
 
-
-
-
-
-
 #lbl_terms{
-    text-size-adjust: 7px;
+    font-size: 65%;
 }
 
 
 #btn_registrarse{
+
+    /* para que el botón no se vea tan feo 
+    tomé los filtros css de la página oficial 
+    (solo para el botón)*/ 
+
+
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 126%;
+    font-size: 19px;
+
+    /*esto es lo que tenía (queda horrible)*/
+/*
     margin: 10%;
     background-color: rgb(35, 131, 0);
     border-radius: 10px;
@@ -174,6 +200,7 @@ img {
     box-shadow: 0%;
     height: 40px;
     width: 200px;
+*/
 }
 
 @media only screen and (max-width: 768px){
@@ -181,15 +208,20 @@ img {
     #div_superior{
         width: 100%;
     }
+    #div_central{
+        height: 1000px;
+    }
     #div_sup_der{
         orientation: center;
         clear: both;
         width: 100%;
         height: auto;
+
     }
     #img_logo{
-        width: 95%;
-        orientation: center;
+        width: auto;
+        padding-right: 30%;
+        padding-left: 30%; 
         clear: both;
     }
     #div_sup_izq{
@@ -200,11 +232,13 @@ img {
 
     #div_cen_der{
         clear: both;
-        width: 100%;
+        width: auto%;
         padding: 10%;
         margin: 0%;
         float: none;
     }
+
+
     #div_correo{
         clear: both;
         width: 95%;
@@ -218,9 +252,11 @@ img {
         display: none;
     }
 
+
 }
 
 
 #div_inferior{
-    position: static;
+    color: blue;
+    display: inline;
 }
