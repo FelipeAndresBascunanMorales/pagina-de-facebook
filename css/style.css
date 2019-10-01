@@ -5,9 +5,10 @@ body{
     margin-right: 0;
 }
 input{
-    border: rgb(206, 221, 204) 2px;
+    border: #BDC7D8 5%;
     margin: 5px;
     height: 40px;
+    
 }
 select{
     border: rgb(206, 221, 204) 2px;
@@ -30,12 +31,13 @@ select{
     object-position: center;
     height: 80px;
 
+
 }
 
 #div_sup_der{
     background-color: #3B5998;
     float: right;
-    width: 65%;
+    width: 700px;
     height: 80px;
     }
 
