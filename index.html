@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" media="screen" >
+    <title>Document</title>
+</head>
+<body>
+    <div id="div_superior" class="div_header">
+        <div id="div_sup_izq" class="div_header">
+            <img id="img_logo" src="img/logo.png" alt="">
+        </div>
+        <div id="div_sup_der" class="div_header">
+        <form action="" method="post">
+            <div id="div_correo" class="div_header">
+            <label id="lbl_correo" for="">correo electrónico o teléfono</label>
+            <input id="inp_correo" type="text">    
+        </div>    
+
+        <div id="div_pass" class="div_header">
+            <label id="lbl_pass" for="">Contraseña</label>
+            <input id="inp_pass" type="text">
+        </div>
+        <div id="div_button">
+        <button id="btn_iniciar" type="button" onclick="">Iniciar Sesión</button>
+        </div>
+        </form>
+
+        </div>
+    </div>
+    <div id="div_central">
+            <div id="div_cen_izq">
+                <img src="img/fondo_portada.png" id="img_lateral" alt="">
+            </div>
+    
+            <div id="div_cen_der">
+
+                    
+                <form action="" method="post">
+                    <h1>Crea una cuenta</h1>
+                    <h4>Es rápido y fácil.</h4>
+                    <input type="text" name="nombre" id="inp_nombre" placeholder="Nombre">
+                    <input type="text" name="apellido" id="inp_apellido" placeholder="Apellido">
+                    <input type="text" name="cel_correo" id="inp_cel_correo" placeholder="Numero de celular o correo electrónico">
+                    <input type="text" name="contraseña" id="inp_contraseña" placeholder="Contraseña nueva">
+                    <label id="lbl_fecha"><h5>Fecha de nacimiento</h5></label>
+                    <select name="dia" id="slc_dia">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    </select>
+                    <select name="mes" id="slc_mes">
+                    <option value="1">enero</option>
+                    <option value="2">febrero</option>
+                    <option value="3">marzo</option>
+                    </select>
+                    <select name="año" id="slc_año">
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    </select>
+                    <label><h5>Sexo</h5></label>
+                    <span data-type="radio" >
+                    <input type="radio" name="hombre" id="inp_hombre">
+                    <label>hombre</label>
+                    <input type="radio" name="hombre" id="inp_mujer">
+                    <label>mujer</label>
+                    <input type="radio" name="hombre" id="inp_otro">
+                    <label>otro</label>
+                    <br>
+                    </span>
+                    <label id="lbl_terms">
+                        <span>Al hacer clic en "Registrarte", aceptas nuestras Condiciones, la Política de datos y la Política de cookies. Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</span>
+                    </label>
+                    <br>
+                    <button type="submit" id="btn_registrarse">Registrarse</button>
+                </form>
+
+
+<!--
+                <table>
+                    
+                        <tr>
+                            <td>
+                                <h1>Crea una cuenta</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Es rápido y fácil.</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <input type="text" name="nombre" id="inp_nombre" placeholder="Nombre">
+                            </td>
+                            <td>
+                                <input type="text" name="apellido" id="inp_apellido" placeholder="Apellido">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <input type="text" name="cel_correo" id="inp_cel_correo" placeholder="Numero de celular o correo electrónico">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="contraseña" id="inp_contraseña" placeholder="Contraseña nueva">
+                            </td>
+                        </tr>
+                        
+    
+    
+                    </table>
+    -->
+            </div>
+    </div>
+    <div id="div_inferior">
+            div inferior
+    </div>
+
+</body>
+</html>

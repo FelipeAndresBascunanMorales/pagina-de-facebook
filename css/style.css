@@ -1,0 +1,205 @@
+
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+input{
+    border: rgb(206, 221, 204) 2px;
+    margin: 5px;
+    height: 40px;
+}
+select{
+    border: rgb(206, 221, 204) 2px;
+    margin: 5px;
+    height: 40px;
+}
+
+#div_superior{
+    
+    background-color: #3B5998;
+    height: 80px;
+    width: 100%;
+    
+}
+
+#div_sup_izq{
+    background-color: #3B5998;
+    float: left;
+    width: 27%;
+    object-position: center;
+    height: 80px;
+
+}
+
+#div_sup_der{
+    background-color: #3B5998;
+    float: right;
+    width: 65%;
+    height: 80px;
+    }
+
+#img_logo{
+    padding-top: 10px;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+#div_correo{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    margin: 2%;
+    color: #E4FFE2;
+
+}
+#div_pass{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    margin: 2%;
+    color: #E4FFE2;
+}
+
+#div_button{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    margin: 1%;
+
+}
+
+
+#lbl_correo{
+    position: relative;
+    width: 100%;
+
+}
+#inp_correo{
+    position: relative;
+    width: 100%;
+    height: 33%;
+}
+
+#lbl_pass{
+    position: relative;
+    width: 100%;
+
+}
+#inp_pass{
+    position: relative;
+    width: 100%;
+    height: 33%;
+
+}
+
+.div_header{
+    height: 80px;
+}
+
+
+
+
+#div_central{
+    background-color: #EBEDF0;
+    
+    
+}
+#div_cen_der{
+    width: 40%;
+    background-color: #EBEDF0;
+    align-content: center;
+    display: inline-block;
+    height: 70%;
+    
+}
+#div_cen_izq{
+    width: 40%;
+    align-content: center;
+    display: inline-block;
+    height: auto;
+
+}
+#inp_cel_correo{
+    width: 100%;
+    align-content: center;
+
+}
+#inp_apellido{
+    width: 40%;
+    align-content: center;
+}
+#inp_contraseña{
+
+    width: 100%;
+    align-content: center;
+    display: inline-block;
+}
+
+
+
+
+
+
+#lbl_terms{
+    text-size-adjust: 7px;
+}
+
+
+#btn_registrarse{
+    margin: 10%;
+    background-color: rgb(35, 131, 0);
+    border-radius: 10px;
+    border-color: rgb(54, 85, 43);
+    box-shadow: 0%;
+    height: 40px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 768px){
+
+    #div_superior{
+        width: 100%;
+    }
+    #div_sup_der{
+        orientation: center;
+        clear: both;
+        width: 100%;
+        height: auto;
+    }
+    #img_logo{
+        width: 95%;
+        orientation: center;
+        clear: both;
+    }
+    #div_sup_izq{
+        orientation: center;
+        width: 90%;
+        
+    }
+
+    #div_cen_der{
+        clear: both;
+        width: 100%;
+    }
+    #div_correo{
+        clear: both;
+        width: 95%;
+
+    }
+    #div_pass{
+        clear: both;
+        width: 95%;
+    }
+    #div_cen_izq{
+        display: none;
+    }
+
+}
+
+
+#div_inferior{
+    position: static;
+}
